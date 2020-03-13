@@ -20,8 +20,8 @@
 
 // TODO: Try different align values, can affect performance according to CUDA docs 9.2.1.2. A Sequential but Misaligned Access Pattern
 struct MY_ALIGN(32) Boid {
-	glm::vec3 velocity, position;
-	char status;
+    glm::vec3 velocity, position;
+    char status;
 
 };
 
